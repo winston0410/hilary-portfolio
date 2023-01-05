@@ -1,3 +1,8 @@
+<script lang="ts" context="module">
+    import "the-new-css-reset/css/reset.css"
+    import "../../src/global.css"
+</script>
+
 <div class="outer-container">
     <main>
         <slot />

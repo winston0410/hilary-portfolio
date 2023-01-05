@@ -30,5 +30,8 @@
 		"vite": "^3.1.0",
 		"wrangler": "^2.1.15"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"the-new-css-reset": "^1.8.2"
+	}
 }
