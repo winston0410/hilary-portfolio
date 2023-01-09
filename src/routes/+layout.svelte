@@ -1,6 +1,8 @@
 <script lang="ts" context="module">
     import "the-new-css-reset/css/reset.css"
-    import "../../src/global.css"
+    import "../specific/global.scss"
+	import "@fontsource/noto-sans-hk/400.css";
+	import "@fontsource/noto-sans-hk/700.css";
 </script>
 
 <div class="outer-container">
@@ -12,7 +14,7 @@
     </aside>
 </div>
 
-<style>
+<style lang="scss">
     .outer-container {
         padding: 1rem;
         display: grid;
