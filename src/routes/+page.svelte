@@ -82,14 +82,14 @@
 
 <section>
     <h2>Experience</h2>
-    <ul>
+    <ul class="exp-list">
         {#each experience as { name, descriptions, from, to }}
         <li>
             <div class="experience-header">
-                <p>{name}</p>
+                <h3>{name}</h3>
                 <span>{from}-{to}</span>
             </div>
-            <ul>
+            <ul class="desc-list">
                 {#each descriptions as d}
                 <li>{d}</li>
                 {/each}
@@ -102,5 +102,18 @@
 <style>
     section {
         margin-bottom: 1rem;
+    }
+
+    .exp-list {
+        display: flex;
+        row-gap: 1rem;
+        flex-direction: column;
+    }
+
+    .desc-list {
+        display: flex;
+        row-gap: 0.5rem;
+        flex-direction: column;
+        list-style: disc inside;
     }
 </style>

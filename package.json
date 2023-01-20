@@ -33,6 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"the-new-css-reset": "^1.8.2"
+		"the-new-css-reset": "^1.7.2"
 	}
 }
