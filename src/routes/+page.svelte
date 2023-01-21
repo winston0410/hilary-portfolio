@@ -99,7 +99,7 @@
     </ul>
 </section>
 
-<style>
+<style lang="scss">
     section {
         margin-bottom: 1rem;
     }
@@ -108,6 +108,10 @@
         display: flex;
         row-gap: 1rem;
         flex-direction: column;
+
+        .experience-header {
+            margin-bottom: 0.5rem;
+        }
     }
 
     .desc-list {
